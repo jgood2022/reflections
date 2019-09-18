@@ -1,0 +1,37 @@
+You might be able to see what small mistakes are most likely to make and be conscious of them in the future.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Because you might accidentally save something that you don't want to.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    You might want to organize a certain number of files into one commit even though they are different types of files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Both of these commands show the code that has been added and subtracted from the original code.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because you know that if you make a mistake you can easily identify and correct it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git to help me find mistakes when I code a game or website.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Having the old file will help you compare the new versions of files to the old versions
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,gg vs having versions automatically saved, like Google Docs does?
+
+    Google Docs will automatically save your changes so you never have to worry about not saving but it also might save too often and clutter up your commits. Manually saving gives you the flexibility to save when you want but it also forces you to remember to save.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+     I want to try making some code and then making changes to it and comparing the two codes in Git.
