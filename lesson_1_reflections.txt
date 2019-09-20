@@ -1,37 +1,55 @@
-You might be able to see what small mistakes are most likely to make and be conscious of them in the future.
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    When looking for an error you can take a look at the commit where the error
+    and then compare that to the commit before. The commit before clearly had the
+    mistake so by comparing the two files one can identify the  mistake. Git diff
+    allows you to only think about two select files, rather than the whole select
+    of code.
+
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    When I'm trying to identify broken code having the entire history helps me
+    because I can easily identify working code from broken code. I have the
+    whole history of the code so I can see where it went wrong. Additionally,
+    I won't be afraid to make mistakes because I know that I can always go back
+    to a working version of the code.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Because you might accidentally save something that you don't want to.
+    Automatically saved versions might not force you to remember to save your
+    project but it also might "over-save" in a sense. You might not need as many
+    commits as a automatically saved version commits. There is also guarantee
+    the actual code that I want saved will save. Saving code automatically might
+    be a little more inconvenient, but it also allows you to save only when you
+    would like and you can name your own commits.
+
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    You might want to organize a certain number of files into one commit even though they are different types of files.
+    Multiple files might be related and overlap at some points, so it would make
+    sense to keep them organized and within the same commit.
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Both of these commands show the code that has been added and subtracted from the original code.
+    When you run git log you see all the commits you've made. This in a sense,
+    shows all the versions of the files. Git diff can help me compare two files
+    so I can see what changes have been made and any possible errors.
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Because you know that if you make a mistake you can easily identify and correct it.
+    Version control will allow me to restore previous versions of the code.
+    Therefore, if I break the code, I can restore a previous version of the code
+    that still works. Using version control allows me a greater margin for error.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I want to try using Git to help me find mistakes when I code a game or website.
-
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-
-    Having the old file will help you compare the new versions of files to the old versions
-
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,gg vs having versions automatically saved, like Google Docs does?
-
-    Google Docs will automatically save your changes so you never have to worry about not saving but it also might save too often and clutter up your commits. Manually saving gives you the flexibility to save when you want but it also forces you to remember to save.
-
-Now that you have your workspace set up, what do you want to try using Git for?
-
-     I want to try making some code and then making changes to it and comparing the two codes in Git.
+    I want to try and run some different commands in my terminal and maybe make
+    some commits. I'm not exactly sure what I would use Git for as of right now,
+    but I'm glad that I now have tools that I can use in the future.
