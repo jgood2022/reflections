@@ -5,7 +5,7 @@ You should initialize a repository to keep your commits in one place and to be o
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-The staging area allows you to select which files you would like to submit and then commit those as supposed to committing many different files.
+The staging area sets aside the files that you would like to commit. Only files that first go through the staging area will be comitted. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
@@ -19,12 +19,12 @@ You might want to keep the original version of a file but experiment with it on 
 
 How do the diagrams help you visualize the branch structure?
 
-They help us see which branches cannot be connected to others and which branches are most recent.
+They help us see the history of the code that we're working on. Essentially, a diagram of the branch structure gives us an overview of the whole structure of the code. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-When you merge two branches together create a commit that stores about both of the branches. The diagram is represented as such because it shows the merge of information.
+When you merge two branches together one branches commits are merged into another branch. The diagram is represented as such because it shows the merge of information.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
